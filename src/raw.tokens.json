@@ -1,0 +1,244 @@
+{
+  "px-color-super-white": {
+    "value": "#ffffff",
+    "type": "color"
+  },
+  "px-font-weight-regular": {
+    "value": 400,
+    "type": "fontWeights",
+    "description": "Default font weight for most body text."
+  },
+  "px-font-weight-semi-bold": {
+    "value": 600,
+    "type": "fontWeights",
+    "description": "A semi-bold font weight for some body text and headlines."
+  },
+  "px-font-weight-bold": {
+    "value": 700,
+    "type": "fontWeights",
+    "description": "A heavier bold font weight for most headlines."
+  },
+  "px-border-radius-sharp": {
+    "value": 0,
+    "type": "borderRadius",
+    "description": "A border radius for sharp edges."
+  },
+  "px-border-radius-pill": {
+    "value": "999px",
+    "type": "borderRadius",
+    "description": "A border radius for pill-shaped tags and similar."
+  },
+  "px-border-radius-circle": {
+    "value": "50%",
+    "type": "borderRadius",
+    "description": "A border radius for creating round avatars or similar."
+  },
+  "px-border-radius-regular": {
+    "value": "4px",
+    "type": "borderRadius",
+    "description": "Default border radius for most elements, like buttons."
+  },
+  "px-border-radius-extra": {
+    "value": "8px",
+    "type": "borderRadius",
+    "description": "Extra large border radius for larger elements, like modals."
+  },
+  "px-font-weight-light": {
+    "value": 300,
+    "type": "fontWeights",
+    "description": "A light font weight for less prominent body text."
+  },
+  "px-line-height-reset": {
+    "value": "100%",
+    "type": "lineHeights",
+    "description": "A line-height reset to 100% of its content size."
+  },
+  "px-line-height-tight": {
+    "value": "120%",
+    "type": "lineHeights",
+    "description": "A tight line height for headlines."
+  },
+  "px-line-height-regular": {
+    "value": "150%",
+    "type": "lineHeights",
+    "description": "Default line height used for most body text."
+  },
+  "px-space-base": {
+    "value": "4",
+    "type": "spacing",
+    "description": "The base value of the Pixel spacing system"
+  },
+  "px-space-base-half": {
+    "value": "0.5 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-1x": {
+    "value": "1 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-2x": {
+    "value": "2 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-3x": {
+    "value": "3 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-4x": {
+    "value": "4 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-6x": {
+    "value": "6 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-8x": {
+    "value": "8 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-12x": {
+    "value": "12 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-16x": {
+    "value": "16 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-space-base-24x": {
+    "value": "24 * {px-space-base}",
+    "type": "spacing"
+  },
+  "px-size-xs": {
+    "value": "8px",
+    "type": "sizing",
+    "description": "The size of an extra small icon."
+  },
+  "px-size-sm": {
+    "value": "12px",
+    "type": "sizing",
+    "description": "The size of a small icon."
+  },
+  "px-size-md": {
+    "value": "18px",
+    "type": "sizing",
+    "description": "The default icon size."
+  },
+  "px-size-lg": {
+    "value": "24px",
+    "type": "sizing",
+    "description": "The size of a large icon."
+  },
+  "px-size-xl": {
+    "value": "34px",
+    "type": "sizing",
+    "description": "The size of an extra large icon."
+  },
+  "px-color-super-red": {
+    "value": "#d32329",
+    "type": "color"
+  },
+  "px-color-super-black": {
+    "value": "#17191c",
+    "type": "color"
+  },
+  "px-color-status-negative": {
+    "value": "#d12229",
+    "type": "color"
+  },
+  "px-color-status-positve": {
+    "value": "#008e00",
+    "type": "color"
+  },
+  "px-color-status-alert": {
+    "value": "#e2792f",
+    "type": "color"
+  },
+  "px-color-status-neutral": {
+    "value": "#0089ff",
+    "type": "color"
+  },
+  "px-color-accent-a": {
+    "value": "#ff93da",
+    "type": "color"
+  },
+  "px-color-accent-b": {
+    "value": "#7b4fc0",
+    "type": "color"
+  },
+  "px-color-accent-c": {
+    "value": "#ffcc4d",
+    "type": "color"
+  },
+  "px-color-accent-d": {
+    "value": "#71fead",
+    "type": "color"
+  },
+  "px-color-accent-e": {
+    "value": "#f4f4f4",
+    "type": "color"
+  },
+  "px-color-aux-900": {
+    "value": "#000000",
+    "type": "color"
+  },
+  "px-font-size-base": {
+    "value": "16px",
+    "type": "fontSizes"
+  },
+  "px-font-size-body-xs": {
+    "value": "10.24px",
+    "type": "fontSizes"
+  },
+  "px-font-size-body-sm": {
+    "value": "12.8px",
+    "type": "fontSizes"
+  },
+  "px-font-size-body-md": {
+    "value": "16px",
+    "type": "fontSizes"
+  },
+  "px-font-size-body-lg": {
+    "value": "20px",
+    "type": "fontSizes"
+  },
+  "px-font-size-body-xl": {
+    "value": "25px",
+    "type": "fontSizes"
+  },
+  "px-font-size-body-2xl": {
+    "value": "31.25px",
+    "type": "fontSizes"
+  },
+  "px-font-size-body-3xl": {
+    "value": "39.06px",
+    "type": "fontSizes"
+  },
+  "px-font-size-body-4xl": {
+    "value": "48.83px",
+    "type": "fontSizes"
+  },
+  "px-font-size-heading-1": {
+    "value": "48.83px",
+    "type": "fontSizes"
+  },
+  "px-font-size-heading-2": {
+    "value": "39.06px",
+    "type": "fontSizes"
+  },
+  "px-font-size-heading-3": {
+    "value": "31.25px",
+    "type": "fontSizes"
+  },
+  "px-font-size-heading-4": {
+    "value": "25px",
+    "type": "fontSizes"
+  },
+  "px-font-size-heading-5": {
+    "value": "20px",
+    "type": "fontSizes"
+  },
+  "px-font-size-heading-6": {
+    "value": "16px",
+    "type": "fontSizes"
+  }
+}
