@@ -1,0 +1,29 @@
+{
+  "name": "token-concept",
+  "version": "1.0.0",
+  "description": "This repo is a proof of concept for handling design tokens in a reliable way. The goal is to use Figma as the source of truth. Any token changes there will be synced to this repo. When new changes are synced, the tokens will be transformed and formatted. After that, they will be comitted, which will then trigger a new version of the package being published.",
+  "main": "dist/js/index.cjs.js",
+  "module": "dist/js/index.esm.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "tokens:transform": "token-transformer src/raw.tokens.json src/pixel.tokens.json",
+    "tokens:build": "style-dictionary build --config config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuschick/token-concept.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuschick/token-concept/issues"
+  },
+  "homepage": "https://github.com/yuschick/token-concept#readme",
+  "dependencies": {
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "0.0.18"
+  }
+}

@@ -1,0 +1,26 @@
+name: CI
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.0
+
+      - name: 'Install dependencies'
+        run: npm install
+
+      # Transform Figma Tokens JSON to something Style Dictionary can read
+      - name: 'Token Transform'
+        run: npm run tokens:transform
+
+      # Convert tokens according to Style Dictionary config
+      - name: 'Styled Dictionary'
+        run: npm run tokens:build
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Commit transformed tokens
